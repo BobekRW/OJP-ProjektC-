@@ -11,7 +11,6 @@
             background-color: #000000;
             font-size: xx-large;
             margin-left: 350px;
-      
         }
         #form1 {
             color: #00CC00;
@@ -32,21 +31,21 @@
          <br />
         <div style="margin-left:670px">Wyniki:</div>
        <div style="margin-left: 2px"> Wysokość wody w<br />beczce: [m]<br />
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><input type="number"/></div>
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></div>
         <div style="margin-left:670px">Maksymalna prędkośc: [m/s]</div>
         <br />
         <div style="margin-left:670px"><asp:Label ID="etykietaPredkosci" runat="server"></asp:Label></div>
          <br />
         <br />
         <div style="margin-left: 2px"> Wysokość wody nad <br />otworem: [m]<br /></div>
-            <div style="margin-left: 2px"><asp:TextBox ID="TextBox2" runat="server" BorderColor="Black" BorderStyle="Double"></asp:TextBox><input type = "number"/></div>
+            <div style="margin-left: 2px"><asp:TextBox ID="TextBox2" runat="server" BorderColor="Black" BorderStyle="Double"></asp:TextBox></div>
        <div style="margin-left:670px">Maksymalny zasięg strumienia: [m]</div>
         <br />
         <div style="margin-left:670px"><asp:Label ID="etykietaZasiegu" runat="server"></asp:Label></div>
          <br />
          <br />
         <div style="margin-left: 2px"> Wartość przyspieszenia <br />ziemskiego: [m/s<sup>2</sup>]<br /></div>
-            <div style="margin-left: 2px"><asp:TextBox ID="grawitacjaTextBox" runat="server" BackColor="#6699FF" BorderColor="Black" BorderStyle="Double" ForeColor="White">9,0865</asp:TextBox><input type = "number"/></div>
+            <div style="margin-left: 2px"> <asp:TextBox ID="grawitacjaTextBox" runat="server" BackColor="#6699FF" BorderColor="Black" BorderStyle="Double" ForeColor="White">9,0865</asp:TextBox></div>
         <div style="margin-left:670px">Czas spadku strumienia: [s]</div>
         <br />
         <div style="margin-left:670px"><asp:Label ID="etykietaCzasu" runat="server"></asp:Label></div>
